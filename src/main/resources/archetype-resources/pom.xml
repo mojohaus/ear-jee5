@@ -5,7 +5,7 @@
   <artifactId>${artifactId}</artifactId>
   <packaging>ear</packaging>
   <version>${version}</version>
-  <name>${artifactId} Maven JEE5 Assembly</name>
+  <name>${artifactId} JEE5 Assembly</name>
   <url>http://maven.apache.org</url>
 
   <build>
@@ -17,6 +17,14 @@
         <configuration>
           <source>1.5</source>
           <target>1.5</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-ear-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+            <version>5</version>
         </configuration>
       </plugin>
     </plugins>
