@@ -27,6 +27,7 @@
         <version>2.4.1</version>
         <configuration>
             <version>5</version>
+            <defaultLibBundleDir>lib</defaultLibBundleDir>
         </configuration>
       </plugin>
     </plugins>
