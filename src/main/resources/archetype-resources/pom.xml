@@ -7,7 +7,7 @@
   <version>${version}</version>
   <packaging>ear</packaging>
 
-  <name>${artifactId} JEE5 Assembly</name>
+  <name>${artifactId}</name>
   <url>http://maven.apache.org</url>
 
   <build>
@@ -31,7 +31,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>${artifactId}</finalName>
   </build>
 
 </project>
